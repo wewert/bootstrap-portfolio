@@ -77,6 +77,12 @@ img::-moz-selection {
   background: transparent;
 }
 
+.resize {
+  height: 55%;
+  width: 30%;
+  padding-bottom: 2%;
+}
+
 body {
   -webkit-tap-highlight-color: #212529;
 }
@@ -241,3 +247,21 @@ header.masthead {
     background-color: #707f57 !important; }
   .btn-primary:active, .btn-primary:focus {
     box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important; }
+
+    footer {
+      padding: 25px 0px;
+      text-align: center;
+      background: #707f57;}
+      footer span.copyright {
+        color: #b8bca9;
+        font-size: 90%;
+        line-height: 40px;
+        text-transform: none;
+        font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      }
+
+    footer .row {
+      width: 100%;
+      margin-left: 33%;
+      margin-right: 40%;
+    }
